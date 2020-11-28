@@ -46,7 +46,20 @@
       border-bottom: none;
       font-size: 20px;
    }
-}
+   }
+   @media screen and (orientation : portrait)
+   {h2:after{
+     content: 'portrait';
+     color:yellow;
+   }
+   }
+   @media screen and (orientation : landscape)
+   {h2:after{
+     content: 'landscape';
+     color:red;
+   }
+
+ }
   </style>
 </head>
 <body>
